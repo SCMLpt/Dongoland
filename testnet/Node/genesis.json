@@ -1,12 +1,21 @@
 {
-  "alloc": {
-    "DONGOLAND_ADDRESS": {
-      "balance": "1000000000000000",  // 초기 토큰 발행량 (1,000,000,000,000,000 microAlgos)
-      "stake": "500000000000000"     // 스테이킹 초기량
-    }
-  },
-  "timestamp": "2025-02-27T12:30:00Z",  // 현재 시간으로 업데이트 (실제 UTC 시간으로 설정)
   "network": "DongolandMainnet",
-  "genesisID": "dongoland-mainnet-v1",
-  "genesisHash": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="  // 테스트넷에서 추출한 실제 genesisHash (예시)
+  "alloc": [
+    {
+      "addr": "SCMLPTMAINNETADDRESSFORINITIALALLOCATION1234567890ABCDEFGHIJKL",
+      "state": {
+        "algo": 1000000000,
+        "onl": 1,
+        "sel": "c2VsZWN0aW9uX2tleV9leGFtcGxl",
+        "vote": "dm90ZV9rZXlfZXhhbXBsZQ==",
+        "stprf": "c3RhdGVwcm9vZl9rZXlfZXhhbXBsZQ=="
+      }
+    }
+  ],
+  "fees": "SCMLPTMAINNETADDRESSFORINITIALALLOCATION1234567890ABCDEFGHIJKL",
+  "rwd": "SCMLPTMAINNETADDRESSFORINITIALALLOCATION1234567890ABCDEFGHIJKL",
+  "proto": "https://github.com/algorandfoundation/spec/tree/mainnet-v1.0",
+  "id": "dongoland-v1",
+  "timestamp": 1677654321,
+  "genesisHash": "h225faVofLOiHSV57W24zen6ID56KhXzOzLXMRpMnxw="  // 테스트넷에서 가져온 실제 genesisHash
 }
