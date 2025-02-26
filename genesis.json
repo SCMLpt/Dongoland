@@ -1,0 +1,12 @@
+{
+  "alloc": {
+    "DONGOLAND_ADDRESS": {
+      "balance": "1000000000000000",  // 초기 토큰 발행량 (1,000,000,000,000,000 microAlgos)
+      "stake": "500000000000000"     // 스테이킹 초기량
+    }
+  },
+  "timestamp": "2025-02-26T11:08:00Z",  // 현재 시간 (2025년 2월 26일 03:08 AM PST 기준 UTC로 변환)
+  "network": "DongolandMainnet",
+  "genesisID": "dongoland-mainnet-v1",
+  "genesisHash": "example-hash-1234567890abcdef"
+}
